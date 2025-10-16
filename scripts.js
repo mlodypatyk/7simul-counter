@@ -45,6 +45,7 @@ function convertToClockPos(number){
     return number
 }
 function handleMove(state, move){
+    move = move.trim()
     if(move === 'y2'){
         temp = state.back
         state.back = state.front
