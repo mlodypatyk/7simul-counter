@@ -211,7 +211,7 @@ function getAllSolutions(scramble){
 
         }
     }
-    solutions.sort((a, b) => (a.zeroes*1000+a.sumTicks) - (b.zeroes*1000+b.sumTicks))
+    solutions.sort((a, b) => ((14-a.zeroes)*1000+a.sumTicks) - ((14-b.zeroes)*1000+b.sumTicks))
     return {
         solutions: solutions,
         max_zeroes: max_zeroes,

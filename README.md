@@ -1,3 +1,3 @@
 # 7simul-counter
 
-Simple website to count 7-simul memo.
+Simple website with a tool to calculate 7-simul memo.
